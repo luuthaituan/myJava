@@ -349,7 +349,7 @@ public  JFrame frame;
             pst.setString(3, txtLop.getText());
             pst.setString(4, txtQueQuan.getText());
             pst.setInt(5, id);
-            pst.executeUpdate(); //loi sai ơ day
+            pst.executeUpdate(); 
             JOptionPane.showMessageDialog(this, "Thong Tin Sinh Vien Da Duoc Sua");
             refreshDB();
         } catch (ClassNotFoundException ex) {
